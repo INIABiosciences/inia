@@ -20,7 +20,7 @@ export default function SciencePage() {
           </section>
 
           {/* Steps Section */}
-          <div className="flex justify-center items-center flex-wrap gap-10 p-12 bg-[#DFEAF7]">
+          <div className="flex justify-center items-center flex-wrap gap-10 p-12 bg-[#BFE6EF]">
             {/* Step 1 */}
             <div className="flex flex-col items-center">
               <Image
@@ -100,17 +100,17 @@ export default function SciencePage() {
           {/* How It Works Section */}
           <section className="mt-5">
             <div className="flex items-start">
-              <div className="flex flex-col text-right pr-1 m-9 mt-3">
+              <div className="flex flex-col text-right pr-1 m-9 mt-35">
                 <h2 className="text-[60px] text-[#3D4755] leading-none mb-3">
-                  how
+                  How
                 </h2>
 
-                <h2 className="text-[50px] text-[#2F5B87] tracking-wider transform scale-y-[1.5] italic mb-3">
+                <h2 className="text-[50px] text-[#198EB3] tracking-wider transform scale-y-[1.5] italic mb-3">
                   INIAcore
                 </h2>
 
                 <h2 className="text-[50px] text-[#3D4755] tracking-wide transform scale-y-[1.5]">
-                  works
+                  Works
                 </h2>
               </div>
               <div className="border-l-3 border-[#2F5B87] h-[600px] mx-1"></div>
@@ -123,7 +123,7 @@ export default function SciencePage() {
                 ].map((title, index) => (
                   <div key={index} className="mb-10">
                     <div className="flex items-center gap-5">
-                      <div className="w-10 h-10 rounded-full bg-[#618DB9] text-white flex items-center justify-center text-lg font-bold">
+                      <div className="w-10 h-10 rounded-full bg-[#198EB3] text-white flex items-center justify-center text-lg font-bold">
                         {index + 1}
                       </div>
                       <h3 className="text-[#3D4755] text-xl font-semibold">
