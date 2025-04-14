@@ -100,7 +100,7 @@ export default function SciencePage() {
           {/* How It Works Section */}
           <section className="mt-5">
             <div className="flex items-start">
-              <div className="flex flex-col text-right pr-1 m-9 mt-35">
+              <div className="flex flex-col text-right pr-1 m-9 mt-[35px]">
                 <h2 className="text-[60px] text-[#3D4755] leading-none mb-3">
                   How
                 </h2>
