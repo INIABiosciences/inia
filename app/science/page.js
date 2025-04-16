@@ -38,17 +38,17 @@ export default function SciencePage() {
       {
         title: "Preclinical Studies",
         content:
-          "INIA's preclinical studies evaluate safety and efficacy using in vitro and in vivo models prior to clinical testing. These early-phase investigations are essential to identify optimal ultrasound parameters, dosage frequency, and biomarkers for tracking treatment effectiveness.",
+          "Early research demonstrated that stimulating the vagus nerve can suppress pro-inflammatory cytokines such as TNF-α, IL-1β, and IL-6. These foundational studies — often conducted in animal models — laid the groundwork for applying neuromodulation to treat inflammatory diseases.",
       },
       {
         title: "Current Clinical Trials",
         content:
-          "INIA is actively running Phase II clinical trials, focusing on immune modulation in chronic inflammation patients. These trials assess device performance in real-world settings and evaluate its ability to reduce inflammatory cytokines like TNFa.",
+          "Clinical trials from companies like SetPoint Medical have explored the use of vagus nerve stimulation in autoimmune conditions. For example, randomized studies have shown measurable reductions in disease activity in patients with rheumatoid arthritis.",
       },
       {
         title: "Future Applications",
         content:
-          "Future programs will target rheumatoid arthritis, IBD, and eczema, using the same ultrasound technology. Academic partnerships will further explore long-term health outcomes and cost-saving potential.",
+          "Research is expanding into applications for Crohn's disease, ulcerative colitis, and even neurodegenerative disorders. These efforts demonstrate how neuromodulation may provide drug-free, precise treatment options across a variety of chronic conditions.",
       },
     ];
 
@@ -166,8 +166,7 @@ export default function SciencePage() {
                         "<strong>Ultrasound</strong>, positioned towards the <strong>spleen</strong>",
                         "Activation of the <strong>splenic nerve</strong>",
                         "Triggering the release of <strong>norepinephrine (NE)</strong> from the nerves",
-                        "<strong>NE</strong> binds to <strong>T-cells</strong>, regulating immune response",
-                        "<strong>T-cells</strong> release <strong>Acetylcholine (ACh)</strong>",
+                        "<strong>NE</strong> binds to <strong>T-cells</strong> release <strong>Acetylcholine (ACh)</strong>",
                         "<strong>ACh</strong> activates <strong>macrophages</strong>, reducing inflammation",
                       ][index],
                     }}
@@ -382,9 +381,52 @@ export default function SciencePage() {
           <div className="space-y-4 max-w-xl mx-auto">
             <ResearchAccordion />
           </div>
+
+          <section className="max-w-xl mx-auto mt-8 text-sm text-gray-600 dark:text-gray-300">
+            <h3 className="font-semibold mb-2">Sources</h3>
+            <ul className="list-disc list-inside space-y-2">
+              <li>
+                Borovikova, L.V. et al. (2000). "Vagus nerve stimulation attenuates the
+                systemic inflammatory response to endotoxin."{" "}
+                <a
+                  href="https://pubmed.ncbi.nlm.nih.gov/10836165"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 underline"
+                >
+                  PubMed: 10836165
+                </a>
+              </li>
+              <li>
+                Koopman, F.A. et al. (2016). "Vagus nerve stimulation inhibits cytokine
+                production and attenuates disease severity in rheumatoid arthritis."{" "}
+                <a
+                  href="https://pubmed.ncbi.nlm.nih.gov/27535621"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 underline"
+                >
+                  PubMed: 27535621
+                </a>
+              </li>
+              <li>
+                Bonaz, B. et al. (2021). "Vagus nerve stimulation: from epilepsy to
+                the microbiota-gut-brain axis."{" "}
+                <a
+                  href="https://pubmed.ncbi.nlm.nih.gov/33358636"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 underline"
+                >
+                  PubMed: 33358636
+                </a>
+              </li>
+            </ul>
+          </section>
         </section>
         <Footer />
       </div>
     </>
   );
-}
+}, regulating immune response",
+                        "<strong>T-cells</strong>
