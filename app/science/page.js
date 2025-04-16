@@ -428,5 +428,4 @@ export default function SciencePage() {
       </div>
     </>
   );
-}, regulating immune response",
-                        "<strong>T-cells</strong>
+}
