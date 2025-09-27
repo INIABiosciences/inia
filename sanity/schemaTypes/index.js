@@ -1,4 +1,6 @@
+
 import header from "./header";
+import newsType from "./newsType";
 import sciencePage, {
   accordionItem,
   threeMinuteStep,
@@ -20,5 +22,6 @@ export const schema = {
     feature,
     iniacoreStep,
     sciencePage,
+    newsType,
   ],
 };
